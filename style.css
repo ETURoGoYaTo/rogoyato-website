@@ -63,7 +63,7 @@
   
   #hero {
     position: relative;
-    background-image: url('./takım-info-file/1.jpg');
+    background-image: url('./takım-info-file/5.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,10 +102,21 @@
     
   
   footer {
-    text-align: center;
     padding: 20px;
-    background: #eee;
+    background-color: #f1f1f1;
   }
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px; /* spacing between items */
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
 
 
 
