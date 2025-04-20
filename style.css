@@ -124,6 +124,7 @@ footer {
     flex-direction: column; /* Stack elements vertically */
     align-items: flex-start; /* Align items to the left */
     padding: 20px;
+    overflow-x: auto;
   }
 
   .logo {
