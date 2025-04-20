@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  nav .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 50px; /* or whatever size fits your design */
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black; /* or dark, depending on your background */
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF;
+  }
+  
+  section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #hero {
+    position: relative;
+    background-image: url('./takım-info-file/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  #hero .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* dark transparent overlay */
+    z-index: 0;
+  }
+  
+  #hero .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .color-1 { color: darkblue; }
+  .color-2 { color: red; }
+  .color-4 { color: white; }
+  .color-3 { color: orange; }
+
+  .rainbow-word span {
+    font-weight: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+  }
+    
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+  }
+
+
+
+  
